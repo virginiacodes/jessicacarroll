@@ -566,6 +566,7 @@ body {
 }
 .video__item {
   margin-bottom: 10rem;
+  width: 100%;
 }
 .video__title {
   align-self: flex-start;
