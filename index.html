@@ -20,31 +20,41 @@
   <body>
     <nav class="navigation">
       <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="about" class="navigation__link">About</a>
+        <li class="navigation__item navigation__home">
+          <a href="/" class="navigation__link">
+            <svg class="navigation__back-icon">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-left"></use>
+            </svg>
+            <span>Home</span>
+          </a>
         </li>
 
         <li class="navigation__item">
-          <a href="/news/" class="navigation__link">News</a>
+          <a href="about.html" class="navigation__link">About</a>
         </li>
 
         <li class="navigation__item">
-          <a href="/cv/" class="navigation__link">CV</a>
+          <a href="news.html" class="navigation__link">News</a>
         </li>
 
         <li class="navigation__item">
-          <a href="voice" class="navigation__link">Voice Demos</a>
+          <a href="cv.html" class="navigation__link">CV</a>
         </li>
 
         <li class="navigation__item">
-          <a href="acting" class="navigation__link">Acting</a>
+          <a href="voice.html" class="navigation__link">Voice Demos</a>
         </li>
 
         <li class="navigation__item">
-          <a href="/contact/" class="navigation__link">Contact</a>
+          <a href="acting.html" class="navigation__link">Acting</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="contact.html" class="navigation__link">Contact</a>
         </li>
       </ul>
     </nav>
+    
     <header class="header">
       <div class="header__text-box">
         <h1 class="header__primary">Jessica Carroll</h1>
@@ -98,7 +108,7 @@
 
     <footer class="footer">
       <div class="footer__privacy">
-        <a href="/privacy-policy/" class="footer__privacy-link"
+        <a href="privacy.html" class="footer__privacy-link"
           >Privacy Policy</a
         >
       </div>
