@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jessica Carroll - Acting</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item navigation__home">
+          <a href="jessicacarroll" class="navigation__link">
+            <svg class="navigation__back-icon">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-left"></use>
+            </svg>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/about/" class="navigation__link">About</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/news/" class="navigation__link">News</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/cv/" class="navigation__link">CV</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/voice/" class="navigation__link">Voice Demos</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/acting/" class="navigation__link">Acting</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/contact/" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="voice">
+        <h1 class="voice__heading page-heading">Voice demos</h1>
+
+        <!-- CARTOON -->
+
+        <div class="voice__cartoon">
+          <div class="voice__cartoon-nav voice__nav-item" id="cartoonNav">
+            <svg class="voice__icon video__icon" id="cartoonIcon">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-right"></use>
+            </svg>
+
+            <h2 class="voice__cartoon-title voice__title" id="cartoonTitle">
+              Cartoons & video games
+            </h2>
+          </div>
+
+          <!-- ///// VIDEO GAMES SECTION ///// -->
+
+          <div class="video" id="video">
+            <img
+              src="../img/videogames.jpeg"
+              alt="video games images"
+              class="video__img"
+            />
+
+            <div class="video__item">
+              <h3 class="video__title">Video games (in vision)</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/videogames.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <div class="video__item">
+              <h3 class="video__title">Cartoon (in vision)</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/cartoons.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <div class="video__item">
+              <h3 class="video__title">Video games (extras)</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/videogamesExtras.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <div class="video__item">
+              <h3 class="video__title">Cartoon (extras)</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/cartoonExtras.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMMERCIAL -->
+
+        <div class="voice__commercial">
+          <div class="voice__commercial-nav voice__nav-item" id="commercialNav">
+            <svg class="voice__icon commercial__icon" id="commercialIcon">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-right"></use>
+            </svg>
+
+            <div
+              class="voice__commercial-title voice__title"
+              id="commercialTitle"
+            >
+              Commercial & radio
+            </div>
+          </div>
+
+          <div class="commercial__content" id="commercialContent">
+            <div class="video__item">
+              <h3 class="video__title">Commercial</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/commercial.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <div class="video__item">
+              <h3 class="video__title">Radio</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/radio.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <div class="video__item">
+              <h3 class="video__title">Corporate</h3>
+
+              <video class="video__video" id="video" controls>
+                <source src="../videos/corporate.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <!-- ///////////// -->
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__privacy">
+        <a href="/privacy-policy/" class="footer__privacy-link"
+          >Privacy Policy</a
+        >
+      </div>
+      <div class="footer__copyright">&copy; 2024 Jessica Carroll</div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="../scripts/showContent.js"></script>
+  </body>
+</html>
