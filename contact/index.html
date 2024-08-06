@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jessica Carroll | Contact</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item navigation__home">
+          <a href="/" class="navigation__link">
+            <svg class="navigation__back-icon">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-left"></use>
+            </svg>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/about/" class="navigation__link">About</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/news/" class="navigation__link">News</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/cv/" class="navigation__link">CV</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/voice/" class="navigation__link">Voice Demos</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/acting/" class="navigation__link">Acting</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="/contact/" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="contact">
+        <h1 class="page-heading">Contact</h1>
+
+        <div class="contact__container">
+          <div class="contact__item contact__item--nav" id="contactActing">
+            <h2 class="contact__title">Acting enquiries</h2>
+
+            <svg class="contact__icon--down" id="iconActing">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-down"></use>
+            </svg>
+          </div>
+
+          <div class="contact__item contact__item--hidden" id="linkActing">
+            <div class="contact__text">
+              For acting, Jessica is represented by
+              <a
+                href="https://www.katiethrelfallassociates.com/contact-us"
+                target="_blank"
+                class="contact__link"
+                >Katie Threlfall Associates.</a
+              >
+            </div>
+          </div>
+
+          <!-- ///////////// -->
+
+          <div class="contact__item contact__item--nav" id="contactVoice">
+            <h2 class="contact__title">Voiceover enquiries</h2>
+
+            <svg class="contact__icon--down" id="iconVoice">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-down"></use>
+            </svg>
+          </div>
+
+          <div class="contact__item contact__item--hidden" id="linkVoice">
+            <div class="contact__text">
+              For voiceover, Jessica is represented by
+              <a
+                href="https://www.thevoiceovergallery.co.uk/contact/"
+                target="_blank"
+                class="contact__link"
+                >The Voiceover Gallery.</a
+              >
+            </div>
+          </div>
+
+          <!-- ///////////// -->
+
+          <div class="contact__item contact__item--nav" id="contactCameo">
+            <h2 class="contact__title">Cameo enquiries</h2>
+
+            <svg class="contact__icon--down" id="iconCameo">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-down"></use>
+            </svg>
+          </div>
+
+          <div class="contact__item contact__item--hidden" id="linkCameo">
+            <div class="contact__text">
+              For personalised messages, visit
+              <a
+                href="https://www.cameo.com/jessicacarroll?aaQueryId=90e2e417329abe2a8349e85ce1bc50f2"
+                target="_blank"
+                class="contact__link"
+                >this link.</a
+              >
+            </div>
+          </div>
+
+          <!-- ///////////// -->
+
+          <div class="contact__item contact__item--nav" id="contactOther">
+            <h2 class="contact__title">Any other enquiries</h2>
+
+            <svg class="contact__icon--down" id="iconOther">
+              <use xlink:href="../img/sprite.svg#icon-chevron-thin-down"></use>
+            </svg>
+          </div>
+
+          <div class="contact__form-box contact__item--hidden" id="linkOther">
+            <div class="contact__text">
+              <form action="" method="POST" class="contact__form">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none" />
+
+                <!-- Disable captcha -->
+                <input type="hidden" name="_captcha" value="false" />
+
+                <!-- Success page -->
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="--websitedomain--/success.html"
+                />
+
+                <!-- Form -->
+                <div class="contact__column">
+                  <input
+                    type="text"
+                    placeholder="First name"
+                    class="contact__form-item contact__input"
+                    name="name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    placeholder="Last name"
+                    class="contact__form-item contact__input"
+                    name="Last Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="contact__form-item contact__input"
+                    placeholder="Email address"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="contact__column">
+                  <textarea
+                    name=""
+                    id=""
+                    class="contact__form-item contact__textarea"
+                    placeholder="Type your message here..."
+                    name="message"
+                  ></textarea>
+                  <input
+                    type="submit"
+                    class="contact__form-item contact__submit"
+                    value="Send"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- ///////////// -->
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__privacy">
+        <a href="/privacy-policy/" class="footer__privacy-link"
+          >Privacy Policy</a
+        >
+      </div>
+      <div class="footer__copyright">&copy; 2024 Jessica Carroll</div>
+    </footer>
+
+    <script src="../scripts/showContact.js"></script>
+  </body>
+</html>
