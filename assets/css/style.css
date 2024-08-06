@@ -66,7 +66,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right, #13191b, rgba(19, 25, 27, 0.1), rgba(19, 25, 27, 0)), url(../img/hero.jpeg);
+  background-image: linear-gradient(to right, #13191b, rgba(19, 25, 27, 0.1), rgba(19, 25, 27, 0)), url(assets/img/hero.jpeg);
   background-size: 70vw;
   background-repeat: no-repeat;
   background-position: right;
