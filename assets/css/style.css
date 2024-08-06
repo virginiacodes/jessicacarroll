@@ -465,6 +465,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.voice__cartoon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .voice__nav-item {
   display: flex;
   align-items: center;
